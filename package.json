@@ -1,6 +1,7 @@
 {
   "name": "ghem-web",
   "version": "0.1.0",
+  "homepage": "https://lekhang4497.github.io/ghem-website",
   "private": true,
   "dependencies": {
     "antd": "^3.10.3",
