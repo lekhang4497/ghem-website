@@ -8,6 +8,16 @@ import FoodSlider from "./FoodSlider";
 import Footer from "./Footer";
 
 class Root extends Component {
+
+    constructor(props) {
+        super();
+        let refresh = localStorage.getItem("refresh");
+        if (refresh) {
+            localStorage.removeItem("refresh");
+            window.location.reload();
+        }
+    }
+
     render() {
         return (
             <div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Header.css'
+import './Header.scss'
 import {Link} from "react-router-dom";
 import {Icon} from "antd";
 
@@ -14,7 +14,10 @@ class BackNav extends Component {
                         </div>
                         <nav id="nav-menu-container">
                             <ul className="nav-menu">
-                                <li className="menu-active"><a href="/"><Icon type="arrow-left" theme="outlined" /> Home page</a></li>
+                                <li className="menu-active"><Link to="/">
+                                    <Icon type="arrow-left" theme="outlined"/>
+                                    Home page
+                                </Link></li>
                             </ul>
                         </nav>
                     </div>

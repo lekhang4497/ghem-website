@@ -8,8 +8,11 @@ import Row from "antd/es/grid/row";
 import "./MenuPage.scss"
 
 class MenuPage extends Component {
-    handleMenuClick(e) {
-        console.log('click left button', e);
+
+    componentDidUpdate(prevProps) {
+        if (this.props.location !== prevProps.location) {
+            window.scrollTo(0, 0);
+        }
     }
 
     constructor() {
@@ -19,6 +22,7 @@ class MenuPage extends Component {
             types: []
         };
         this.fullMenu = [];
+        localStorage.setItem("refresh", "1");
     }
 
     normalize(type) {
@@ -72,11 +76,11 @@ class MenuPage extends Component {
                         <div style={{marginBottom: 58}}>
                             <Row gutter={32} type="flex" justify="start">
                                 {this.state.types.map(item =>
-                                    <Col span={4}>
+                                    <Col span={6}>
                                         <Card onClick={() => this.getMenuForType(item)}
                                               className="card-type"
                                               hoverable>
-                                            <Avatar src={"/img/icon/" + item + ".png"} style={{marginRight: 8}}/>
+                                            <Avatar src={"/img/icon/" + item + ".png"} style={{marginRight: 16}}/>
                                             {this.normalize(item)}
                                         </Card>
                                     </Col>

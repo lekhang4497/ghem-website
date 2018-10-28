@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Header.css'
+import './Header.scss'
 import {Link} from "react-router-dom";
 
 class Header extends Component {
@@ -15,7 +15,7 @@ class Header extends Component {
                             <ul className="nav-menu">
                                 <li className="menu-active"><a href="#home">Home</a></li>
                                 <li><a href="#dish">Dish</a></li>
-                                <li><a href="/menu">Menu</a></li>
+                                <li><Link to="/menu">Menu</Link></li>
                                 <li><a href="#ghem-contact">Contact</a></li>
                             </ul>
                         </nav>

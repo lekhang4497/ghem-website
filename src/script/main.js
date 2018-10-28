@@ -1,5 +1,6 @@
+import $ from 'jquery';
 
-$(document).ready(function(){
+export function initHomePage(){
 	"use strict";
 
 	var window_width 	 = $(window).width(),
@@ -85,7 +86,7 @@ $(document).ready(function(){
 
   // Smooth scroll for the menu and links with .scrollto classes
   $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    if (this.location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && this.location.hostname === this.hostname) {
       var target = $(this.hash);
       if (target.length) {
         var top_space = 0;
@@ -307,4 +308,4 @@ $(document).ready(function(){
 
         }
     });
- });
+ }
