@@ -1,0 +1,433 @@
+[{
+    "price": "70.000",
+    "name": "Free-range chicken sautéed with lemongrass and chili",
+    "type": "chicken"
+}, {
+    "price": "70.000",
+    "name": "Braised chicken with coconut milk and fish sauce",
+    "type": "chicken"
+}, {
+    "price": "70.000",
+    "name": "Deep fried chicken with green chilli sauce",
+    "type": "chicken"
+}, {
+    "price": "78.000",
+    "name": "Deep fried chicken wings with fish sauce",
+    "type": "chicken"
+}, {
+    "price": "78.000",
+    "name": "Deep fried chicken wings with butter",
+    "type": "chicken"
+}, {
+    "price": "70.000",
+    "name": "Braised chicken with ginger",
+    "type": "chicken"
+}, {
+    "price": "45.000",
+    "name": "Fried egg with minced pork and onion",
+    "type": "egg"
+}, {
+    "price": "62.000",
+    "name": "Fried egg with mushroom",
+    "type": "egg"
+}, {
+    "price": "40.000",
+    "name": "Fried egg with tomato",
+    "type": "egg"
+}, {
+    "price": "75.000",
+    "name": "Roasted duck sauteed with pickled cabbage",
+    "type": "duck"
+}, {
+    "price": "70.000",
+    "name": "Sauteed duck with salt",
+    "type": "duck"
+}, {
+    "price": "70.000",
+    "name": "Sauteed duck with galangal",
+    "type": "duck"
+}, {
+    "price": "70.000",
+    "name": "Boiled duck dip in fish sauce with ginger",
+    "type": "duck"
+}, {
+    "price": "75.000",
+    "name": "Sauteed duck with lemongrass and chilli",
+    "type": "duck"
+}, {
+    "price": "75.000",
+    "name": "Sauteed duck with spicy sauce",
+    "type": "duck"
+}, {
+    "price": "58.000",
+    "name": "Steam minced pork in sauce of macerated fish",
+    "type": "other"
+}, {
+    "price": "60.000",
+    "name": "Sauteed sweet snail in salted egg yolk sauce",
+    "type": "other"
+}, {
+    "price": "57.000",
+    "name": "Vegetable cooked with fermented tofu",
+    "type": "other"
+}, {
+    "price": "65.000",
+    "name": "Pork belly cooked with palm sugar caramel",
+    "type": "pork"
+}, {
+    "price": "65.000",
+    "name": "Pork braised in five spices",
+    "type": "pork"
+}, {
+    "price": "55.000",
+    "name": "Pork belly stir fried with shrimp paste",
+    "type": "pork"
+}, {
+    "price": "72.000",
+    "name": "Roasted pork sauteed in garlic",
+    "type": "pork"
+}, {
+    "price": "65.000",
+    "name": "Fried pork belly with lemongrass",
+    "type": "pork"
+}, {
+    "price": "75.000",
+    "name": "Fried pork chop in black pepper lime sauce",
+    "type": "pork"
+}, {
+    "price": "90.000",
+    "name": "Fried pork chop in sour and sweet sauce",
+    "type": "pork"
+}, {
+    "price": "115.000",
+    "name": "Deep fried salted pig ham",
+    "type": "pork"
+}, {
+    "price": "55.000",
+    "name": "Round scad fish braised with garlic fish sauce",
+    "type": "fish"
+}, {
+    "price": "61.000",
+    "name": "Fried fish rake sauteed with fish saute",
+    "type": "fish"
+}, {
+    "price": "70.400",
+    "name": "Deep fried fish cake",
+    "type": "fish"
+}, {
+    "price": "69.000",
+    "name": "Braised tuna with pineapple and fish sauce",
+    "type": "fish"
+}, {
+    "price": "63.000",
+    "name": "Fried capelin and tamarind saute",
+    "type": "fish"
+}, {
+    "price": "95:000",
+    "name": "Deep fried red Napo in tamarind sauce",
+    "type": "fish"
+}, {
+    "price": "95.000",
+    "name": "Stewed red tilapia In soy sauce",
+    "type": "fish"
+}, {
+    "price": "95.000",
+    "name": "Steamed red tilapia with spring onion",
+    "type": "fish"
+}, {
+    "price": "55.000",
+    "name": "Tofu deep fried with lemongrass and shrimp paste",
+    "type": "tofu"
+}, {
+    "price": "80.000",
+    "name": "Tofu sauteed with seafood",
+    "type": "tofu"
+}, {
+    "price": "50:000",
+    "name": "Tofu deep fried with spring onion and soy sauce",
+    "type": "tofu"
+}, {
+    "price": "55.000",
+    "name": "Tofu stir fried with chilli and lemongrass",
+    "type": "tofu"
+}, {
+    "price": "80.000",
+    "name": "Corned beef cooked in fish sauce and ginger",
+    "type": "beef"
+}, {
+    "price": "75.000",
+    "name": "Sauteed beef tripe with pickled cabbage",
+    "type": "beef"
+}, {
+    "price": "88.000",
+    "name": "Stir-fried corned beef",
+    "type": "beef"
+}, {
+    "price": "82.000",
+    "name": "Braised beef wrapped in mustard leaf",
+    "type": "beef"
+}, {
+    "price": "80.000",
+    "name": "Sbr-fried beef with lernongrass and chilli",
+    "type": "beef"
+}, {
+    "price": "85.000",
+    "name": "Sauteed diced beef",
+    "type": "beef"
+}, {
+    "price": "85.000",
+    "name": "Beef with green pepper sauce",
+    "type": "beef"
+}, {
+    "price": "87.000",
+    "name": "Sauteed beef tripe 'Pah shiitaite mushroom",
+    "type": "beef"
+}, {
+    "price": "75.000",
+    "name": "Stir fried clams with garlic, chili, and fish sauce",
+    "type": "seafood"
+}, {
+    "price": "83.000",
+    "name": "Stir fried shrimp with sea salt",
+    "type": "seafood"
+}, {
+    "price": "87.000",
+    "name": "Deep fried squid with salt and dried chili",
+    "type": "seafood"
+}, {
+    "price": "87.000",
+    "name": "Sauteed squid in chilli sauce",
+    "type": "seafood"
+}, {
+    "price": "75.000",
+    "name": "Stir fried dams with tamarind sauce",
+    "type": "seafood"
+}, {
+    "price": "85.000",
+    "name": "Deep fried squid",
+    "type": "seafood"
+}, {
+    "price": "88.000",
+    "name": "Deep fried squid with fish sauce",
+    "type": "seafood"
+}, {
+    "price": "90.000",
+    "name": "Steamed squid with mustard leaves",
+    "type": "seafood"
+}, {
+    "price": "90.000",
+    "name": "Steamed squid with spring onion and ginger",
+    "type": "seafood"
+}, {
+    "price": "65.000",
+    "name": "Clam and tomato soup",
+    "type": "soup"
+}, {
+    "price": "60.000",
+    "name": "Beef soup with pickled cabbage",
+    "type": "soup"
+}, {
+    "price": "45.000",
+    "name": "Tofu soup",
+    "type": "soup"
+}, {
+    "price": "65.000",
+    "name": "Bitter melon and fish ball soup",
+    "type": "soup"
+}, {
+    "price": "75.000",
+    "name": "Shrimp & sweet soup",
+    "type": "soup"
+}, {
+    "price": "60.000",
+    "name": "Green vegetable and prawn",
+    "type": "soup"
+}, {
+    "price": "70.000",
+    "name": "Watercress and pork rib",
+    "type": "soup"
+}, {
+    "price": "66.000",
+    "name": "Seaweed and tofu",
+    "type": "soup"
+}, {
+    "price": "66.000",
+    "name": "Calabash and shrimp",
+    "type": "soup"
+}, {
+    "price": "65.000",
+    "name": "Bitter melon and tofu",
+    "type": "soup"
+}, {
+    "price": "67.000",
+    "name": "Sour creeper leaves and chicken",
+    "type": "soup"
+}, {
+    "price": "65.000",
+    "name": "Tofu skin and mushroom",
+    "type": "soup"
+}, {
+    "price": "65.000",
+    "name": "Mustard leaves and fish ball",
+    "type": "soup"
+}, {
+    "price": "58.000",
+    "name": "Luffa with mushroom and shrimp",
+    "type": "soup"
+}, {
+    "price": "65.000",
+    "name": "With five spice braised pork",
+    "type": "salad"
+}, {
+    "price": "75.000",
+    "name": "With shrimp and squid",
+    "type": "salad"
+}, {
+    "price": "75.000",
+    "name": "With corned beef",
+    "type": "salad"
+}, {
+    "price": "75.000",
+    "name": "With calabash and shrimp & pork",
+    "type": "salad"
+}, {
+    "price": "50.000",
+    "name": "With mushroom",
+    "type": "salad"
+}, {
+    "price": "70.000",
+    "name": "Ghem spring rolls",
+    "type": "salad"
+}, {
+    "price": "45.000",
+    "name": "Stir fried vegetable with garlic",
+    "type": "vegetables"
+}, {
+    "price": "65.000",
+    "name": "Stir fried vegetable with beef",
+    "type": "vegetables"
+}, {
+    "price": "57.000",
+    "name": "Stir fried vegetable with fermented tofu",
+    "type": "vegetables"
+}, {
+    "price": "55.000",
+    "name": "Boiled vegetable dipped in fermented tofu Gia",
+    "type": "vegetables"
+}, {
+    "price": "55.000",
+    "name": "Stir fried bean sprout with pork and chilli",
+    "type": "vegetables"
+}, {
+    "price": "55.000",
+    "name": "Stir fried baby corn and vegetable",
+    "type": "vegetables"
+}, {
+    "price": "10.000",
+    "name": "Steam rice in clay pot for 1 person",
+    "type": "side_dishes"
+}, {
+    "price": "20.000",
+    "name": "Steam rice in bowl",
+    "type": "side_dishes"
+}, {
+    "price": "10.000",
+    "name": "Pickled cabbage",
+    "type": "side_dishes"
+}, {
+    "price": "10.000",
+    "name": "Kim chi",
+    "type": "side_dishes"
+}, {
+    "price": "10.000",
+    "name": "Pickled aarden-egg",
+    "type": "side_dishes"
+}, {
+    "price": "20.000",
+    "name": "Milk yogurt",
+    "type": "dessert"
+}, {
+    "price": "20.000",
+    "name": "Matcha yogurt",
+    "type": "dessert"
+}, {
+    "price": "20.000",
+    "name": "Iced Banana",
+    "type": "dessert"
+}, {
+    "price": "25.000",
+    "name": "Sweet tofu with ginger syrup the",
+    "type": "dessert"
+}, {
+    "price": "25.000",
+    "name": "Daily sweet dessert",
+    "type": "dessert"
+}, {
+    "price": "65.000",
+    "name": "Noodle with fried tofu & shrimp paste",
+    "type": "noodle"
+}, {
+    "price": "40.000",
+    "name": "Noodle with fried tofu & fish sauce",
+    "type": "noodle"
+}, {
+    "price": "45.000",
+    "name": "Noodle with boiled pork belly",
+    "type": "noodle"
+}, {
+    "price": "40.000",
+    "name": "Noodle with fried tofu",
+    "type": "noodle"
+}, {
+    "price": "20.000",
+    "name": "Pork roll with young green rice flakes",
+    "type": "pork"
+}, {
+    "price": "30.000",
+    "name": "Boiled pork belly",
+    "type": "pork"
+}, {
+    "price": "20.000",
+    "name": "Deep fried tofu",
+    "type": "side_dishes"
+}, {
+    "price": "10.000",
+    "name": "Noodle",
+    "type": "noodle"
+}, {
+    "price": "36.000",
+    "name": "Spring rolls with shrimp",
+    "type": "seafood"
+}, {
+    "price": "80.000",
+    "name": "Mixed pork offal",
+    "type": "pork"
+}, {
+    "price": "80.000",
+    "name": "Fried pork offal",
+    "type": "pork"
+}, {
+    "price": "56.000",
+    "name": "Fried pig's pudding",
+    "type": "pork"
+}, {
+    "price": "80.000",
+    "name": "Noodle with pork stew in special-flavored soup",
+    "type": "noodle"
+}, {
+    "price": "90.000",
+    "name": "Not pot with field crabs",
+    "type": "noodle"
+}, {
+    "price": "50.000",
+    "name": "Field crabs",
+    "type": "seafood"
+}, {
+    "price": "15.000",
+    "name": "Unhatched duck eggs",
+    "type": "egg"
+}, {
+    "price": "5.000",
+    "name": "Vegetables",
+    "type": "vegetables"
+}]

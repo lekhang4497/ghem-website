@@ -26,7 +26,7 @@ class FoodSlider extends Component {
                                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                         laboris nisi ut aliquip ex ea commodo consequat.
                                     </p>
-                                    <a href="#" className="primary-btn header-btn text-uppercase">view full menu</a>
+                                    <a href="/menu" className="primary-btn header-btn text-uppercase">view full menu</a>
                                 </div>
                                 <div className="col-lg-6">
                                     <img className="img-fluid" src="img/food/1.jpg" alt=""/>
@@ -43,7 +43,7 @@ class FoodSlider extends Component {
                                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                         laboris nisi ut aliquip ex ea commodo consequat.
                                     </p>
-                                    <a href="#" className="primary-btn header-btn text-uppercase">view full menu</a>
+                                    <a href="/menu" className="primary-btn header-btn text-uppercase">view full menu</a>
                                 </div>
                                 <div className="col-lg-6">
                                     <img className="img-fluid" src="img/food/2.jpg" alt=""/>

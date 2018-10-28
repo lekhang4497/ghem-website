@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Banner extends Component {
     render() {
         return (
-            <section className="banner-area relative" id="home">
+            <section className="banner-area relative" id="home" style={{backgroundPosition: "center"}}>
                 <div className="container">
                     <div className="row fullscreen d-flex align-items-center justify-content-start">
                         <div className="banner-content col-lg-8 col-md-12">
