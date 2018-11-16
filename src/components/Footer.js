@@ -8,22 +8,20 @@ class Footer extends Component {
                     <div className="row">
                         <div className="col-lg-3  col-md-6 col-sm-6">
                             <div className="single-footer-widget">
-                                <h4 className="text-white">About Us</h4>
-                                <p>Vietnamese cuisine in HCMC
+                                <h4 className="text-white">Contact us</h4>
+                                <p className="number">
+                                    037 746 0304
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-4  col-md-6 col-sm-6">
                             <div className="single-footer-widget">
-                                <h4 className="text-white">Contact Us</h4>
+                                <h4 className="text-white">Address</h4>
                                 <p>
                                     103 Pasteur, Bến Nghé, District 1
                                     Ho Chi Minh City
                                 </p>
                                 <p>Open hours: 10:00 AM - 10:00 PM</p>
-                                <p className="number">
-                                    037 746 0304
-                                </p>
                             </div>
                         </div>
                         <div className="col-lg-5  col-md-6 col-sm-6">
@@ -40,14 +38,11 @@ class Footer extends Component {
                     <div className="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
                         <p className="footer-text m-0">Copyright &copy;
                             <script>document.write(new Date().getFullYear());</script>
-                            All rights reserved | This template is made with <i className="fa fa-heart-o"
-                                                                                aria-hidden="true"/> by <a
+                            All rights reserved | This template is made by <a
                                 href="https://colorlib.com" target="_blank">Colorlib</a></p>
                         <div className="footer-social d-flex align-items-center">
-                            <a href="#"><i className="fa fa-facebook"/></a>
-                            <a href="#"><i className="fa fa-twitter"/></a>
-                            <a href="#"><i className="fa fa-dribbble"/></a>
-                            <a href="#"><i className="fa fa-behance"/></a>
+                            <a href="https://www.facebook.com/ghembychuongdang/"><i className="fab fa-facebook-f"/></a>
+                            <a href="https://www.tripadvisor.com/Restaurant_Review-g293925-d11954019-Reviews-Ghem-Ho_Chi_Minh_City.html"><i className="fab fa-tripadvisor"/></a>
                         </div>
                     </div>
                 </div>

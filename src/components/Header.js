@@ -8,8 +8,8 @@ class Header extends Component {
             <header id="header" className="home">
                 <div className="container">
                     <div className="row align-items-center justify-content-between d-flex">
-                        <div id="logo" style={{height: 30}}>
-                            <Link to="/" className="lobster ghem-logo">Ghém</Link>
+                        <div id="logo">
+                            <Link to="/" className="special-font ghem-logo animated infinite swing">Ghém</Link>
                         </div>
                         <nav id="nav-menu-container">
                             <ul className="nav-menu">

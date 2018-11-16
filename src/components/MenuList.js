@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './Header.scss'
-import {Link} from "react-router-dom";
-import {Avatar, Icon, List} from "antd";
+import {Avatar, List} from "antd";
+import Helper from "../service/Helper";
 
 const MenuList = (props) =>
     <List
@@ -12,7 +12,7 @@ const MenuList = (props) =>
                 <List.Item.Meta
                     avatar={<Avatar src={"/img/icon/" + item.type + ".png"}/>}
                     title={item.name}
-                    description={item.type}
+                    description={Helper.normalize(item.type)}
                 />
                 <b>{item.price + " VND"}</b>
             </List.Item>

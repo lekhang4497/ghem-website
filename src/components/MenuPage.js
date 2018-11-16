@@ -6,6 +6,7 @@ import axios from "axios"
 import {Avatar, Card, Col, Icon, Menu} from "antd";
 import Row from "antd/es/grid/row";
 import "./MenuPage.scss"
+import Helper from "../service/Helper";
 
 class MenuPage extends Component {
 
@@ -25,16 +26,14 @@ class MenuPage extends Component {
         localStorage.setItem("refresh", "1");
     }
 
-    normalize(type) {
-        type = type.replace("_", " ");
-        return type.charAt(0).toUpperCase() + type.slice(1);
-    }
-
     getMenu() {
         axios.get("/dishes.json").then(response => {
             console.log(response);
             this.fullMenu = response.data;
-            this.fullMenu.sort((a, b) => a.type.localeCompare(b.type))
+            this.fullMenu.sort((a, b) => a.type.localeCompare(b.type));
+            // this.fullMenu = this.fullMenu.map(item => {
+            //     return {...item, type: this.normalize(item.type)}
+            // });
             let typeList = Array.from(new Set(this.fullMenu.map(item => item.type)));
             this.setState({
                 menu: [...this.fullMenu],
@@ -76,12 +75,14 @@ class MenuPage extends Component {
                         <div style={{marginBottom: 58}}>
                             <Row gutter={32} type="flex" justify="start">
                                 {this.state.types.map(item =>
-                                    <Col span={6}>
+                                    <Col lg={6} md={8} sm={12} xs={12}>
                                         <Card onClick={() => this.getMenuForType(item)}
                                               className="card-type"
                                               hoverable>
-                                            <Avatar src={"/img/icon/" + item + ".png"} style={{marginRight: 16}}/>
-                                            {this.normalize(item)}
+                                            <div className="text-center text-md-left">
+                                                <Avatar src={"/img/icon/" + item + ".png"} className="m-0 mr-md-3"/>
+                                                <div className="d-md-inline mt-2 m-md-0">{Helper.normalize(item)}</div>
+                                            </div>
                                         </Card>
                                     </Col>
                                 )}
